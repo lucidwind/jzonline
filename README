@@ -4,11 +4,11 @@
 后面可以慢慢发展。
 
 
-Begin add by welldy in 2003-07-02
+Begin add by welldy in 2013-07-02
 我大致考虑了以下两种实现框架：
 1、分UI、DO和DATE三个模块来实现，DO模块封装到tuxedo服务里，DATE模块专门完成数据处理并提供接口给DATE模块，
 UI模块通过tuxedo调用DO模块。
 
 2、分UI和BS两个模块来实现，UI模块直接调用BS模块提供的命令接口来完成UI查询及订单处理，BS模块内部完成处理
 订单并记录数据提供接口，后期发展需要在不同小型机上部署，可通过socket连接。
-End add by welldy in 2003-07-02
+End add by welldy in 2013-07-02
